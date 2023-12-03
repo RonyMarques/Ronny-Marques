@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0c1b33;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;;
+    font-weight: bold;
+}
+
+.nav-bar {
+    font-family: 'Libre Bodoni', serif;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 1px 3px 10px rgb(3, 54, 112)
+}
+
+.nav-bar div p {
+    color: blueviolet;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar li {
+    margin: 15px;
+    padding: 15px;
+}
+
+a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: blueviolet;
+    transform: scale(1.2);
+}
+
+
